@@ -15,3 +15,4 @@ export const rename = async () => {
         throw new Error("FS operation failed");
     }
 };
+rename();

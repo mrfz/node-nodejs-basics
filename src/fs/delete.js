@@ -16,3 +16,4 @@ export const remove = async () => {
         }
     }
 };
+remove();

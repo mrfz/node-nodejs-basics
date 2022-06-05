@@ -6,3 +6,4 @@ export const parseArgs = () => {
     }
     console.log(outputString.slice(0,-1));
 };
+parseArgs();

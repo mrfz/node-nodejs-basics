@@ -5,3 +5,4 @@ export const parseEnv = () => {
         .map(([key,value]) => outputString = outputString.concat(`${key}=${value}; `));
     outputString !== ""  ?  console.log(outputString.slice(0,outputString.length-2)) : null;
 };
+parseEnv();
